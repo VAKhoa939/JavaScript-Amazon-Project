@@ -149,6 +149,11 @@
   margin-right: 5px;
 }
 
+.added-to-cart.is-visible {
+  opacity: 1;
+  transition: none;
+}
+
 .add-to-cart-button {
   width: 100%;
   padding: 8px;
