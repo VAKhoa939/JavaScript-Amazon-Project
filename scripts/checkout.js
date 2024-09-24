@@ -1,5 +1,5 @@
-import { cart } from "../data/cart";
-import { products } from "../data/products";
+import { cart } from "../data/cart.js";
+import { products } from "../data/products.js";
 
 let orderSummaryHTML = '';
 
@@ -91,5 +91,5 @@ cart.forEach(item => {
           </div>
     `;
 });
-
+console.log(orderSummaryHTML);
 document.querySelector('.js-order-summary').innerHTML = orderSummaryHTML;
